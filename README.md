@@ -164,6 +164,7 @@ Option | Type | Default | Description
 |[`allowUnique`](#allowUnique) | `Boolean` | `true` | Boolean value to control whether tags should be unqiue
 |[`allowDragDrop`](#allowDragDrop) | `Boolean` | `true` | Boolean value to control whether tags should have drag-n-drop features enabled
 |[`renderSuggestion`](#renderSuggestion) | `Function` | `undefined` | Render prop for rendering your own suggestions
+|[`shouldRenderSuggestions`](#shouldRenderSuggestions) | `Function` | `(query) => query.length >= minQueryLength && isFocused` | Override default behavior whether to show the suggestions
 
 <a name="tagsOption"></a>
 ##### tags (optional, defaults to `[]`)
